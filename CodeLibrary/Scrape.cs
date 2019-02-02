@@ -26,7 +26,9 @@ namespace CodeLibrary
         private string GetWebpage(string url)
         {
             WebClient client = new WebClient();
-            return client.DownloadString(url);
+            string content = client.DownloadString(url);
+            content += "\nThat's it!";
+            return content;
         }
     }
 }

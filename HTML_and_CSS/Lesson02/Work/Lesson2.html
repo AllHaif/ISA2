@@ -197,7 +197,7 @@ including the Firefox web browser, the Thunderbird e-mail client, and SeaMonkey 
 <p>They are *mostly* the same, in so much that a web page will look mostly the same regardless of which web browser it is loaded 
 	into.  However it is the differences between them that most people discuss because it provides design challenges.</p>
 
-What do I mean when I use the terms "parse" and "render"?  
+<h2>What do I mean when I use the terms "parse" and "render"?</h2>  
 
 <p>The term "parse" refers to the process of breaking apart the HTML document to better "understand" the instructions coded there 
 	in.  During this phase, other resources, like external CSS files or JavaScript files, or images, must be requested so that the
@@ -209,24 +209,24 @@ What do I mean when I use the terms "parse" and "render"?
 	the paragraph owns as well.  This is simply part of the process of deciding what technique the browser will use to ultimately 
 	render the HTML to the screen.</p>
 
-Characteristics of HTML5 Web Pages
+<h2>Characteristics of HTML5 Web Pages</h2>
 
 <p>Each web page should declare which standard it has promised to adhere to.  This is called a DOCTYPE, and it is the reason that we 
 	typed this:<br>
 <br>
-<!DOCTYPE html>
+&lt;!DOCTYPE html&gt;
 <br>
 <br>
-... at the very top of our web page.  This instruction told any web browser that may open it that it should be evaluated as an 
-HTML5 document, as opposed to an HTML document of another version.  Every instruction should adhere to the HTML5 specification 
-(which we'll talk about in a moment).  If it doesn't, the renderer may not know how to properly apply the rules of HTML5 to the 
-document and must drop back into something called "quirks mode" where the browser will take a best guess on how to best render the 
-web page.  "Quirks mode" exists because there are plenty of poorly coded HTML page in the world and the web browser wants to try to 
-the best of its ability to render something to the end user.  If web browsers through up their hands and complained each time a web
-developer wrote bad code, the World Wide Web experience would be dreadful.  Since writing HTML that doesn't validate against a 
-standard can produce inconsistent results, web developers are strongly encouraged to take great care in the code they write.  In 
-fact, most tools that allow you to write HTML pages incorporate a validator to ensure the code you write validates against your 
-chosen HTML specification.  We'll use an HTML5 validator that's available on the internet for free in just a moment.</p>
+	... at the very top of our web page.  This instruction told any web browser that may open it that it should be evaluated as an 
+	HTML5 document, as opposed to an HTML document of another version.  Every instruction should adhere to the HTML5 specification 
+	(which we'll talk about in a moment).  If it doesn't, the renderer may not know how to properly apply the rules of HTML5 to the 
+	document and must drop back into something called "quirks mode" where the browser will take a best guess on how to best render the 
+	web page.  "Quirks mode" exists because there are plenty of poorly coded HTML page in the world and the web browser wants to try to 
+	the best of its ability to render something to the end user.  If web browsers through up their hands and complained each time a web
+	developer wrote bad code, the World Wide Web experience would be dreadful.  Since writing HTML that doesn't validate against a 
+	standard can produce inconsistent results, web developers are strongly encouraged to take great care in the code they write.  In 
+	fact, most tools that allow you to write HTML pages incorporate a validator to ensure the code you write validates against your 
+	chosen HTML specification.  We'll use an HTML5 validator that's available on the internet for free in just a moment.</p>
 
 <p>Once the document has been parsed, the browser can begin the rendering process.  "Render" means that the code will be translated 
 	into visual elements on screen using algorithms and rules coded into the rendering engine, the components in the web browser 
@@ -283,24 +283,24 @@ chosen HTML specification.  We'll use an HTML5 validator that's available on the
 	expensive process.  Real professionals take this seriously and I would recommend you do so, too.  You may see me cut corners 
 	at times -- do as I say, not as I do.</p>
 
-If you have a captive audience, the experience is a little different.  For example, In Windows 8, HTML5 developers can rely on 
+<aside>If you have a captive audience, the experience is a little different.  For example, In Windows 8, HTML5 developers can rely on 
 Internet Explorer 10's expanded HTML5 support to build user interfaces that run as Metro-style applications utilizing the WinRT API.  
 In this case, you know for a fact where your HTML5 will be rendered and by whom, and you are free to use the full set of HTML5 
 features IE10 supports without having to worry about other browser vendors and version.  Another example might be that someday you're 
 building web-based intranet applications that will run inside of your enterprise on an Intranet.  In this case, your IT department 
 may have standardized on a specific web browser.  If this is the case, you are free to use the HTML features supported by that 
-specific vendor and version of web browser.
+specific vendor and version of web browser.</aside>
 
 
-Conclusion
+<h2>Conclusion</h2>
 
-Hopefully you can see the issues surrounding HTML5 and CSS3 with regards to their support by various versions and vendors of web 
-browsers and two different thought processes on how to incorporate HTML5 into your own work.
+<p>Hopefully you can see the issues surrounding HTML5 and CSS3 with regards to their support by various versions and vendors of web 
+browsers and two different thought processes on how to incorporate HTML5 into your own work.</p>
 </article>
 </section>
 
 <footer>
-Copyright &copy; 2012-2014 Bob Tabor
+<small>Copyright &copy; 2012-2014 Bob Tabor</small>
 
 <nav>
 		<ul>

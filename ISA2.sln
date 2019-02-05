@@ -31,6 +31,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML and CSS lectures", "HTML and CSS lectures", "{7A1B70D7-CC44-4374-B5B9-68842AD14D8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 2", "Lesson 2", "{511A996D-25D0-4DFC-B9DC-5588781B58CF}"
+	ProjectSection(SolutionItems) = preProject
+		HTML_and_CSS\Lesson02\Work\Lesson2.html = HTML_and_CSS\Lesson02\Work\Lesson2.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

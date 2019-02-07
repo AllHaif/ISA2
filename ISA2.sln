@@ -30,35 +30,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 2", "Week 2", "{0D82B0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML and CSS lectures", "HTML and CSS lectures", "{7A1B70D7-CC44-4374-B5B9-68842AD14D8D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 2", "Lesson 2", "{511A996D-25D0-4DFC-B9DC-5588781B58CF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 02", "Lesson 02", "{511A996D-25D0-4DFC-B9DC-5588781B58CF}"
 	ProjectSection(SolutionItems) = preProject
 		HTML_and_CSS\Lesson02\Lesson2.html = HTML_and_CSS\Lesson02\Lesson2.html
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 3", "Lesson 3", "{3DB61367-8A47-49B2-B442-933B7522749F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 03", "Lesson 03", "{3DB61367-8A47-49B2-B442-933B7522749F}"
 	ProjectSection(SolutionItems) = preProject
 		HTML_and_CSS\Lesson03\Lesson03.html = HTML_and_CSS\Lesson03\Lesson03.html
 		HTML_and_CSS\Lesson03\styles.css = HTML_and_CSS\Lesson03\styles.css
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 5", "Lesson 5", "{EE77EA53-5473-4BA3-93EE-5F6648BA37EE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 05", "Lesson 05", "{EE77EA53-5473-4BA3-93EE-5F6648BA37EE}"
 	ProjectSection(SolutionItems) = preProject
 		HTML_and_CSS\Lesson05\another.html = HTML_and_CSS\Lesson05\another.html
 		HTML_and_CSS\Lesson05\Lesson05.html = HTML_and_CSS\Lesson05\Lesson05.html
 		HTML_and_CSS\Lesson05\subfolder\subfolder.html = HTML_and_CSS\Lesson05\subfolder\subfolder.html
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 6", "Lesson 6", "{89A3DB51-27CB-476F-AE74-4CA3F5135E4E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 06", "Lesson 06", "{89A3DB51-27CB-476F-AE74-4CA3F5135E4E}"
 	ProjectSection(SolutionItems) = preProject
 		HTML_and_CSS\Lesson06\lesson06.html = HTML_and_CSS\Lesson06\lesson06.html
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 8", "Lesson 8", "{D00BAE3E-457D-4A2A-A24E-95F5B138DC24}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 08", "Lesson 08", "{D00BAE3E-457D-4A2A-A24E-95F5B138DC24}"
 	ProjectSection(SolutionItems) = preProject
 		HTML_and_CSS\Lesson08\Lesson08.html = HTML_and_CSS\Lesson08\Lesson08.html
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 9", "Lesson 9", "{6BF06D94-A2F4-4535-A271-654A77A4E031}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 09", "Lesson 09", "{6BF06D94-A2F4-4535-A271-654A77A4E031}"
 	ProjectSection(SolutionItems) = preProject
 		HTML_and_CSS\Lesson09\Lesson09.html = HTML_and_CSS\Lesson09\Lesson09.html
 	EndProjectSection
@@ -66,6 +66,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 10", "Lesson 10", "{2F63CE01-E8D3-45E3-9961-5FC1D7DC1071}"
 	ProjectSection(SolutionItems) = preProject
 		HTML_and_CSS\Lesson10\Lesson10.html = HTML_and_CSS\Lesson10\Lesson10.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 11", "Lesson 11", "{574FE8FA-2546-4E74-ADCB-47B1382FA343}"
+	ProjectSection(SolutionItems) = preProject
+		HTML_and_CSS\Lesson11\Lesson11.html = HTML_and_CSS\Lesson11\Lesson11.html
 	EndProjectSection
 EndProject
 Global
@@ -123,6 +128,7 @@ Global
 		{D00BAE3E-457D-4A2A-A24E-95F5B138DC24} = {7A1B70D7-CC44-4374-B5B9-68842AD14D8D}
 		{6BF06D94-A2F4-4535-A271-654A77A4E031} = {7A1B70D7-CC44-4374-B5B9-68842AD14D8D}
 		{2F63CE01-E8D3-45E3-9961-5FC1D7DC1071} = {7A1B70D7-CC44-4374-B5B9-68842AD14D8D}
+		{574FE8FA-2546-4E74-ADCB-47B1382FA343} = {7A1B70D7-CC44-4374-B5B9-68842AD14D8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06D7D0B5-67EC-4B47-881C-127E460F72E7}

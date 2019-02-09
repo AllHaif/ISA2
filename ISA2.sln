@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 1", "Week 1", "{CF4089C9-6397-488E-A11F-E05D4491FB65}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{69D8A381-EAA4-46E9-9801-6FF750B62D54}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69D8A381-EAA4-46E9-9801-6FF750B62D54}"
 	ProjectSection(SolutionItems) = preProject
 		Galoyan_Time_recording_log.xlsx = Galoyan_Time_recording_log.xlsx
 	EndProjectSection

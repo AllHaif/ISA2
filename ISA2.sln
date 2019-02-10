@@ -123,6 +123,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 20", "Lesson 20", "{
 		HTML_and_CSS\Lesson20\Test.svg = HTML_and_CSS\Lesson20\Test.svg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practice", "Practice", "{1B4F6828-806E-440E-BC0C-7782E5D3C63C}"
+	ProjectSection(SolutionItems) = preProject
+		Practice 1\subpages\about.html = Practice 1\subpages\about.html
+		Practice 1\subpages\contact.html = Practice 1\subpages\contact.html
+		Practice 1\index.html = Practice 1\index.html
+		Practice 1\css\styles.css = Practice 1\css\styles.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -188,6 +196,7 @@ Global
 		{592555C6-7DD1-47E8-9FE1-93B6C9BC8541} = {7A1B70D7-CC44-4374-B5B9-68842AD14D8D}
 		{D555FAA7-7F7F-499E-A68D-78B7F1DB0D58} = {7A1B70D7-CC44-4374-B5B9-68842AD14D8D}
 		{555643FF-1260-45E3-9434-9CA3F3CCCA17} = {7A1B70D7-CC44-4374-B5B9-68842AD14D8D}
+		{1B4F6828-806E-440E-BC0C-7782E5D3C63C} = {0D82B091-0FDC-42E7-8AEA-9E74CECE153A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06D7D0B5-67EC-4B47-881C-127E460F72E7}

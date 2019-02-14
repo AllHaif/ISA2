@@ -8,12 +8,12 @@ if (count == 4) {
 }
 
 count = 4;
-if (count == 4){
-    console.log('same value');
-} else if (count === 4) {
+if (count === 4){
     console.log('same value and type');
+} else if (count == 4) {
+    console.log('same value');
 } else {
-    console.log('nothing same');
+    console.log('nothing in common');
 }
 
 let hero = 'Batman';
@@ -32,4 +32,5 @@ switch (hero.toLowerCase()) {
 let a = 1, b = '1';
 console.log((a === b) ? 'equal' : 'inequal');
 console.log((a == b) ? 'equal' : 'inequal');
+console.log((a != b) ? 'inequal' : 'equal');
 console.log((a !== b) ? 'inequal' : 'equal');

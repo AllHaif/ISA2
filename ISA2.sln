@@ -169,6 +169,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 09", "Lesson 09", "{
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 11", "Lesson 11", "{7A94F9FB-AA87-4862-A8E7-57001C1EA4BE}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 11\decisions.js = Week 3\JavaScript course\Lesson 11\decisions.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -244,6 +244,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 27", "Lesson 27", "{
 		Week 3\JavaScript course\Lesson 27\truthy-falsy.js = Week 3\JavaScript course\Lesson 27\truthy-falsy.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 29", "Lesson 29", "{9501A4C3-32FD-471F-8A1C-E00BACFA8833}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 29\date.js = Week 3\JavaScript course\Lesson 29\date.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -332,6 +337,7 @@ Global
 		{7E71CB43-A009-4E5E-8785-8AD33EDF5CB6} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{07E71FED-ED8E-46DF-A08D-3FC58A654017} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{0046ECDC-10D9-4718-9E51-0551B43765B9} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
+		{9501A4C3-32FD-471F-8A1C-E00BACFA8833} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06D7D0B5-67EC-4B47-881C-127E460F72E7}

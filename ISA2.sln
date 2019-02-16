@@ -214,6 +214,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 21", "Lesson 21", "{
 		Week 3\JavaScript course\Lesson 21\regex.js = Week 3\JavaScript course\Lesson 21\regex.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 22", "Lesson 22", "{5EE08EF3-9D7D-45BC-A9B8-1C2AAA5C4E28}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 22\natives.js = Week 3\JavaScript course\Lesson 22\natives.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -296,6 +301,7 @@ Global
 		{1B1F5B16-C1E7-4A17-8203-532600B08212} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{2BA36FDE-14C6-4736-8BEC-63E34712DB56} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{A1B04F6F-9AFE-4B63-8CB3-986555C6D801} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
+		{5EE08EF3-9D7D-45BC-A9B8-1C2AAA5C4E28} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06D7D0B5-67EC-4B47-881C-127E460F72E7}

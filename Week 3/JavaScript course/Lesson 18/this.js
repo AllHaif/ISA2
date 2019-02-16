@@ -44,3 +44,21 @@ are sent. */
 console.log(third.call(myObject, 'bob'));
 console.log(third.apply(myObject, ['bob']));
 
+function fifth() {
+    console.log(this.firstName + ' ' + this.lastName);
+}
+
+let customer1 = {
+    firstName: 'bob',
+    lastName: 'tabor',
+    print: fifth 
+}
+
+let customer2 = {
+    firstName: 'ruben',
+    lastName: 'galoyan',
+    print: fifth 
+}
+
+customer2.print();
+customer1.print();

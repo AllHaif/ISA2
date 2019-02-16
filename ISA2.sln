@@ -224,6 +224,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 23", "Lesson 23", "{
 		Week 3\JavaScript course\Lesson 23\constructors.js = Week 3\JavaScript course\Lesson 23\constructors.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 24", "Lesson 24", "{FD3317C6-9191-47CA-9E61-CAE1C0F2E44D}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 24\prototypes.js = Week 3\JavaScript course\Lesson 24\prototypes.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -308,6 +313,7 @@ Global
 		{A1B04F6F-9AFE-4B63-8CB3-986555C6D801} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{5EE08EF3-9D7D-45BC-A9B8-1C2AAA5C4E28} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{3EB91954-6D9B-4E1A-B9F5-620B3809E903} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
+		{FD3317C6-9191-47CA-9E61-CAE1C0F2E44D} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06D7D0B5-67EC-4B47-881C-127E460F72E7}

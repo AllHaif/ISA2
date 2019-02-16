@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <button onclick="clickHandler(this)">Click me</button>
+
+    <script>
+        function clickHandler(arg) {
+            console.log(arg);
+            console.log(arg.innerText);
+            console.log(this);
+        }
+    </script>
 </body>
 </html>

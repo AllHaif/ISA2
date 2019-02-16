@@ -193,6 +193,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 17", "Lesson 17", "{
 		Week 3\JavaScript course\Lesson 17\closures.js = Week 3\JavaScript course\Lesson 17\closures.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 19", "Lesson 19", "{A826C3EA-176E-4052-8028-8A976F1BC00A}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 19\destructuring.js = Week 3\JavaScript course\Lesson 19\destructuring.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 18", "Lesson 18", "{1B1F5B16-C1E7-4A17-8203-532600B08212}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 18\this.html = Week 3\JavaScript course\Lesson 18\this.html
+		Week 3\JavaScript course\Lesson 18\this.js = Week 3\JavaScript course\Lesson 18\this.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 20", "Lesson 20", "{2BA36FDE-14C6-4736-8BEC-63E34712DB56}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 20\template-literals.js = Week 3\JavaScript course\Lesson 20\template-literals.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -271,6 +287,9 @@ Global
 		{196C4096-57E9-4099-B30B-06456C8B217C} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{6CB2C2D3-C1DC-42FD-A1CE-F71DE324A162} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 		{26B8EAB2-7E36-4264-8681-95896407854B} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
+		{A826C3EA-176E-4052-8028-8A976F1BC00A} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
+		{1B1F5B16-C1E7-4A17-8203-532600B08212} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
+		{2BA36FDE-14C6-4736-8BEC-63E34712DB56} = {C51AA7C2-2CD5-4ECB-8785-0B27C0C72D9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06D7D0B5-67EC-4B47-881C-127E460F72E7}

@@ -265,6 +265,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 32", "Lesson 32", "{
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 33", "Lesson 33", "{1825A7A8-0F61-4E3F-9E8A-120846496FC4}"
+	ProjectSection(SolutionItems) = preProject
+		Week 3\JavaScript course\Lesson 33\dom-intro.html = Week 3\JavaScript course\Lesson 33\dom-intro.html
+		Week 3\JavaScript course\Lesson 33\dom-intro.js = Week 3\JavaScript course\Lesson 33\dom-intro.js
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 34", "Lesson 34", "{7AABFB17-9E90-4F13-890B-B108E5EBE4D4}"
 EndProject

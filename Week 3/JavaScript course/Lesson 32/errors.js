@@ -1,5 +1,5 @@
 let a = 7 * undefined / "panama";
-console.log(a); */
+console.log(a);
 
 function beforeTryCatch() {
     let obj = undefined;

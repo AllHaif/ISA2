@@ -12,5 +12,10 @@ namespace ASP.NET_MVC.Controllers
         {
             return "Hello world!";
         }
+
+        public ActionResult GetView()
+        {
+            return View("MyView");
+        }
     }
 }

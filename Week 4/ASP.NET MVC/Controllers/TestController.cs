@@ -16,14 +16,11 @@ namespace ASP.NET_MVC.Controllers
 
         public ActionResult GetView()
         {
-            Employee emp = new Employee
-            {
-                FirstName = "Ruben",
-                LastName = "Galoyan",
-                Salary = 50000
-            };
-            ViewBag.Employee = emp;
-            return View("MyView");
+            Employee emp = new Employee();
+            emp.FirstName = "Ruben";
+            emp.LastName = "Galoyan";
+            emp.Salary = 50000;
+            return View("MyView", emp);
         }
     }
 }

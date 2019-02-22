@@ -22,7 +22,7 @@ namespace ASP.NET_MVC.Controllers
                 LastName = "Galoyan",
                 Salary = 50000
             };
-            ViewData["Employee"] = emp;
+            ViewBag.Employee = emp;
             return View("MyView");
         }
     }

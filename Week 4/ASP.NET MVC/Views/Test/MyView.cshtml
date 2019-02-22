@@ -13,11 +13,11 @@
 <body>
 <div>
     @{
-        ASP.NET_MVC.Models.Employee emp = (ASP.NET_MVC.Models.Employee)
-            ViewData["Employee"];
+        var emp = (Employee)
+            ViewBag.Employee;
     }
     <b>Employee Details</b><br/>
-    Employee Name: @emp.FirstName@emp.LastName <br/>
+    Employee Name: @emp.FirstName @emp.LastName <br/>
     Employee Salary: @emp.Salary.ToString("C")
 </div>
 </body>

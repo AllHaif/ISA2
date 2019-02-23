@@ -14,8 +14,8 @@ namespace ASP.NET_MVC.Controllers
         {
             var emp = new Employee("Ruben", "Galoyan", 20000);
 
-            var vmEmp = new EmployeeViewModel(emp,"Admin");
-            return View("MyView", vmEmp);
+            var vmEmp = new EmployeeViewModel(emp);
+            return View("MyView");
         }
     }
 }

@@ -11,12 +11,13 @@ namespace Core
         {
         }
 
-        public Employee(string firstName, string lastname, int salary)
+        public Employee(string firstName, string lastname = null, int salary = 0)
         {
-            FirstName = firstName;
-            LastName = lastname;
+            FirstName = firstName?? string.Empty;
+            LastName = lastname?? string.Empty;
             Salary = salary;
         }
+        public int EmployeeID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Salary { get; set; }

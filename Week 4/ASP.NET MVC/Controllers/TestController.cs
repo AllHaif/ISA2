@@ -11,10 +11,13 @@ namespace ASP.NET_MVC.Controllers
 {
     public class TestController : Controller
     {
+        private readonly SalesDbContext db;
+
+        public TestController(SalesDbContext db) {this.db = db;}
         public ActionResult GetView()
         {
             var model = new EmployeeListViewModel();
-            var employees = Employees.Get();
+            var employees = Employees.Get(db);
             var list = new List<EmployeeViewModel>();
             foreach (var e in employees)
             {

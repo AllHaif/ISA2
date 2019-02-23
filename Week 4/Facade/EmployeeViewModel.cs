@@ -7,19 +7,17 @@ namespace Facade
 {
     public class EmployeeViewModel
     {
-        public EmployeeViewModel(Employee emp, string username)
+        public EmployeeViewModel(Employee emp)
         {
+            if(emp is null) return;
             SetName(emp);
             SetSalary(emp);
             SetColor(emp);
-            SetUserName(username);
         }
         
         public string EmployeeName { get; set; }
-        public string Salary { get; set; }
+        public string Salary { get; set; } = 0.ToString("C");
         public string SalaryColor { get; private set; } = "red";
-        public string UserName { get; set; }
-
         public void SetName(Employee e)
         {
             EmployeeName = e.FirstName + " " + e.LastName;
@@ -35,11 +33,6 @@ namespace Facade
         public void SetSalary(Employee e)
         {
             Salary = e.Salary.ToString("C");
-        }
-
-        public void SetUserName(string userName)
-        {
-            UserName = userName ?? string.Empty;
         }
     }
 }

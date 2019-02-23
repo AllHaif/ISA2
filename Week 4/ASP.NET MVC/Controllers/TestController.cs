@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Facade;
+using Infra;
 using Core;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,10 +13,18 @@ namespace ASP.NET_MVC.Controllers
     {
         public ActionResult GetView()
         {
-            var emp = new Employee("Ruben", "Galoyan", 20000);
+            var model = new EmployeeListViewModel();
+            var employees = Employees.Get();
+            var list = new List<EmployeeViewModel>();
+            foreach (var e in employees)
+            {
+                var employee = new EmployeeViewModel(e);
+                list.Add(employee);
+            }
 
-            var vmEmp = new EmployeeViewModel(emp);
-            return View("MyView");
+            model.Employees = list;
+            model.UserName = "Admin";
+            return View("MyView", model);
         }
     }
 }

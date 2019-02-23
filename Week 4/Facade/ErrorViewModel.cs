@@ -1,6 +1,6 @@
 using System;
 
-namespace ASP.NET_MVC.Models
+namespace Facade
 {
     public class ErrorViewModel
     {

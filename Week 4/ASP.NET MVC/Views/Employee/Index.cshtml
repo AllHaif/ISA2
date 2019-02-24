@@ -9,23 +9,27 @@
 <html>
 <h2>Employees</h2>
 <body>
-    <div>
-        <p>
-            <a href="/Employee/AddNew">Add New</a>
-        </p>
+    <div style="text-align: right">
+        Hello, @Model.UserName
+        <a href="/Authentication/Logout">Logout</a>
+    </div>
+<div>
+    <p>
+        <a href="/Employee/AddNew">Add New</a>
+    </p>
     <table class="table">
         <tr>
             <th>Employee Name</th>
             <th>Salary</th>
         </tr>
         @foreach (var item in Model.Employees)
-         {
-             <tr>
-                 <td>@item.EmployeeName</td>
-                 <td style="background-color: @item.SalaryColor">@item.Salary</td>
-             </tr>
-         }
+        {
+            <tr>
+                <td>@item.EmployeeName</td>
+                <td style="background-color: @item.SalaryColor">@item.Salary</td>
+            </tr>
+        }
     </table>
-    </div>
+</div>
 </body>
 </html>

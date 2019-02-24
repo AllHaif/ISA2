@@ -9,12 +9,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ASP.NET_MVC.Controllers
 {
-    public class TestController : Controller
+    public class EmployeeController : Controller
     {
         private readonly SalesDbContext db;
 
-        public TestController(SalesDbContext db) {this.db = db;}
-        public ActionResult GetView()
+        public EmployeeController(SalesDbContext db) {this.db = db;}
+        public ActionResult Index()
         {
             var model = new EmployeeListViewModel();
             var employees = Employees.Get(db);
@@ -26,8 +26,12 @@ namespace ASP.NET_MVC.Controllers
             }
 
             model.Employees = list;
-            model.UserName = "Admin";
-            return View("MyView", model);
+            return View("Index", model);
+        }
+
+        public ActionResult AddNew()
+        {
+            return View("CreateEmployee");
         }
     }
 }

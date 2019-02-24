@@ -22,10 +22,9 @@ namespace Core
             Salary = salary;
         }
         public int EmployeeID { get; set; }
-        [Required(ErrorMessage = requiredField)]
-        [StringLength(20, ErrorMessage = lengthIsTooBig)]
+        [NameValidation]
         public string FirstName { get; set; }
-        [StringLength(20, ErrorMessage = lengthIsTooBig)]
+        [NameValidation]
         public string LastName { get; set; }
         public int Salary { get; set; }
     }

@@ -27,8 +27,10 @@ namespace ASP.NET_MVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SalesDbContext>(options => options.UseSqlServer(
-                Configuration.GetConnectionString("DefaultConnection"),
-                b => b.MigrationsAssembly("ASP.NET_MVC")));
+                Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("ASP.NET_MVC")));
+
+            services.AddAuthentication("AuthScheme").AddCookie("AuthScheme",
+                options => { options.LoginPath = new PathString("/Authentication/Login"); });
             services.AddMvc();
 
             //services.Configure<CookiePolicyOptions>(options =>
@@ -54,9 +56,12 @@ namespace ASP.NET_MVC
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
+            //app.UseStaticFiles();
+            //app.UseCookiePolicy();
+
             app.UseStaticFiles();
-            app.UseCookiePolicy();
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {

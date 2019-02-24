@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Facade;
 using Infra;
 using Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASP.NET_MVC.Controllers
@@ -14,6 +15,8 @@ namespace ASP.NET_MVC.Controllers
         private readonly SalesDbContext db;
 
         public EmployeeController(SalesDbContext db) {this.db = db;}
+
+        [Authorize]
         public ActionResult Index()
         {
             var model = new EmployeeListViewModel();
@@ -29,6 +32,7 @@ namespace ASP.NET_MVC.Controllers
             return View("Index", model);
         }
 
+        [Authorize]
         public ActionResult AddNew()
         {
             return View("CreateEmployee",new CreateEmployeeViewModel());

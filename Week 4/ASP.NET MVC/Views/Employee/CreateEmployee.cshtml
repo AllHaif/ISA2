@@ -1,6 +1,13 @@
 ﻿
 @{
     ViewBag.Title = "Create Employee";
+    <script>
+        function ResetForm() {
+            document.getElementById("TxtFName").value = "";
+            document.getElementById("TxtLName").value = "";
+            document.getElementById("TxtSalary").value = "";
+        }
+    </script>
 }
 
 <!DOCTYPE html>
@@ -9,14 +16,15 @@
     <h2>Create Employee</h2>
 </head>
 <body>
-<div>
-    <form action="/Employee/SaveEmployee" method="post">
-        <p>First Name: <input type="text" id="TxtFName" name="FirstName" value="" /></p>
-        <p>Last Name: <input type="text" id="TxtLName" name="LastName" value="" /></p>
-        <p>Salary: <input type="text" id="TxtSalary" name="Salary" value="" /></p>
-        <input type="submit" name="BtnSave" value="Save Employee"/>
-        <input type="button" name="BtnReset" value="Reset"/>
-    </form>
-</div>
+    <div>
+        <form action="/Employee/SaveEmployee" method="post">
+            <p>First Name: <input type="text" id="TxtFName" name="FirstName" value="" /></p>
+            <p>Last Name: <input type="text" id="TxtLName" name="LastName" value="" /></p>
+            <p>Salary: <input type="text" id="TxtSalary" name="Salary" value="" /></p>
+            <input type="submit" name="BtnSubmit" value="Save Employee" />
+            <input type="button" name="BtnReset" value="Reset" onclick="ResetForm()" />
+            <input type="submit" name="BtnSubmit" value="Cancel" />
+        </form>
+    </div>
 </body>
 </html>

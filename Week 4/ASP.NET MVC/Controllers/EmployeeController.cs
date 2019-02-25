@@ -45,6 +45,7 @@ namespace ASP.NET_MVC.Controllers
         }
 
         [AdminFilter]
+        [ValidateAntiForgeryToken]
         public ActionResult SaveEmployee(Employee e, string BtnSubmit)
         {
             if (BtnSubmit != "Save Employee") return RedirectToAction("Index");

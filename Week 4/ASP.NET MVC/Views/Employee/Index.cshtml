@@ -27,6 +27,10 @@
                 <tr>
                     <td>@item.EmployeeName</td>
                     <td style="background-color: @item.SalaryColor">@item.Salary</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.EmployeeId">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.EmployeeId">Delete</a>
+                    </td>
                 </tr>
             }
         </table>

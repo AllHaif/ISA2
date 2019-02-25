@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ASP.NET_MVC.Filters;
 using Facade;
 using Infra;
 using Core;
@@ -37,11 +38,13 @@ namespace ASP.NET_MVC.Controllers
         }
 
         [Authorize]
+        [AdminFilter]
         public ActionResult AddNew()
         {
             return View("CreateEmployee",new CreateEmployeeViewModel());
         }
 
+        [AdminFilter]
         public ActionResult SaveEmployee(Employee e, string BtnSubmit)
         {
             if (BtnSubmit != "Save Employee") return RedirectToAction("Index");

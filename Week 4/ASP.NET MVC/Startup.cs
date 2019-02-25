@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 using Infra;
 using Microsoft.AspNetCore.Builder;
@@ -31,6 +32,9 @@ namespace ASP.NET_MVC
 
             services.AddAuthentication("AuthScheme").AddCookie("AuthScheme",
                 options => { options.LoginPath = new PathString("/Authentication/Login"); });
+            services.AddDistributedMemoryCache();
+            services.AddSession();
+
             services.AddMvc();
 
             //services.Configure<CookiePolicyOptions>(options =>
@@ -62,6 +66,8 @@ namespace ASP.NET_MVC
 
             app.UseStaticFiles();
             app.UseAuthentication();
+
+            app.UseSession();
 
             app.UseMvc(routes =>
             {

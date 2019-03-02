@@ -15,9 +15,7 @@ namespace ASP.NET_MVC.Controllers
     public class EmployeeController : Controller
     {
         private readonly SalesDbContext db;
-
-        public EmployeeController(SalesDbContext db) {this.db = db;}
-
+        public EmployeeController(SalesDbContext db) { this.db = db; }
         [Authorize]
         public ActionResult Index()
         {
@@ -43,7 +41,7 @@ namespace ASP.NET_MVC.Controllers
         [AdminFilter]
         public ActionResult AddNew()
         {
-            return View("CreateEmployee",new CreateEmployeeViewModel());
+            return View("CreateEmployee", new CreateEmployeeViewModel());
         }
 
         [AdminFilter]
@@ -52,10 +50,9 @@ namespace ASP.NET_MVC.Controllers
         {
             if (BtnSubmit != "Save Employee") return RedirectToAction("Index");
             if (!ModelState.IsValid) return View("CreateEmployee");
-            return save(e);
+            return Save(e);
         }
-
-        private ActionResult save(Employee e)
+        private ActionResult Save(Employee e)
         {
             Employees emp = new Employees();
             emp.Save(e, db);
@@ -73,8 +70,7 @@ namespace ASP.NET_MVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var employee = await db.Employees.SingleOrDefaultAsync
-                (m => m.EmployeeID == id);
+            var employee = await db.Employees.SingleOrDefaultAsync(m => m.EmployeeID == id);
             db.Employees.Remove(employee);
             await db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -90,8 +86,7 @@ namespace ASP.NET_MVC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,
-            [Bind("EmployeeId,FirstName,LastName,Salary")] Employee employee)
+        public async Task<IActionResult> Edit(int? id, [Bind("EmployeeID,FirstName,LastName,Salary")] Employee employee)
         {
             if (id != employee.EmployeeID) return NotFound();
             if (ModelState.IsValid)
@@ -109,7 +104,6 @@ namespace ASP.NET_MVC.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
-
             return View(employee);
         }
 
@@ -117,5 +111,6 @@ namespace ASP.NET_MVC.Controllers
         {
             return db.Employees.Any(e => e.EmployeeID == id);
         }
+
     }
 }

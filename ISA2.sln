@@ -284,7 +284,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Week 4\Tests\Tests
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Week 4\Infra\Infra.csproj", "{93A68125-7D1B-4FDB-8F24-F31E436E5A77}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 5", "Week 5", "{C3B8166B-FD32-4AB9-97B8-1FE5CC17CD1E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 5-6", "Week 5-6", "{C3B8166B-FD32-4AB9-97B8-1FE5CC17CD1E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "Week 5\ContosoUniversity\ContosoUniversity.csproj", "{57C36D07-CAAD-4CBA-ADA8-78BCDF634968}"
 EndProject

@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using RazorPagesMovie.Models;
 
-namespace RazorPagesMovie.Models
+namespace RazorPagesMovie.Pages.Movies
 {
     public class CreateModel : PageModel
     {

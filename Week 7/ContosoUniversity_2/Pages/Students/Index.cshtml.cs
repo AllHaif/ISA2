@@ -1,19 +1,17 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+using ContosoUniversity_2.Data;
+using ContosoUniversity_2.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using ContosoUniversity_2.Models;
 
-namespace ContosoUniversity_2.Pages_Students
+namespace ContosoUniversity_2.Pages.Students
 {
     public class IndexModel : PageModel
     {
-        private readonly ContosoUniversity_2.Models.SchoolContext _context;
+        private readonly SchoolContext _context;
 
-        public IndexModel(ContosoUniversity_2.Models.SchoolContext context)
+        public IndexModel(SchoolContext context)
         {
             _context = context;
         }

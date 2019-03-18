@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using ContosoUniversity_2.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ContosoUniversity_2.Models
+namespace ContosoUniversity_2.Data
 {
     public class SchoolContext : DbContext
     {

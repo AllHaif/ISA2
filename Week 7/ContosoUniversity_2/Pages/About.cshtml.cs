@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ContosoUniversity_2.Data;
+using ContosoUniversity_2.Models;
 
 namespace ContosoUniversity_2.Pages
 {
